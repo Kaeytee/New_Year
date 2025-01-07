@@ -100,10 +100,38 @@ body {
   font-size: 4.3rem;
   margin-left: 150%;
 }
+
 .new-year h1.year {
   font-size: 12.3rem;
   margin-top: 80%;
 }
+
+/* For tablets */
+@media screen and (max-width: 768px) {
+  .new-year h1:nth-child(1) {
+    font-size: 3rem;
+    margin-left: 100%;
+  }
+  
+  .new-year h1.year {
+    font-size: 8rem;
+    margin-top: 60%;
+  }
+}
+
+/* For mobile phones */
+@media screen and (max-width: 480px) {
+  .new-year h1:nth-child(1) {
+    font-size: 2rem;
+    margin-left: 50%;
+  }
+  
+  .new-year h1.year {
+    font-size: 5rem;
+    margin-top: 40%;
+  }
+}
+
 
 .firework {
   position: absolute;
